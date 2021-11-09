@@ -3,7 +3,7 @@
 
     <stroke
         android:color="@color/kotlinVioletColour"
-        android:width="1.3dp"/>
+        android:width="1dp"/>
 
     <corners android:radius="35dp"/>
 

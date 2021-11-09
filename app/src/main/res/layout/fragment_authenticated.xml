@@ -36,7 +36,6 @@
         android:layout_height="55dp"
         android:layout_marginTop="100dp"
         android:backgroundTint="@color/kotlinVioletColour"
-        android:fontFamily="@font/cambria"
         android:text="@string/continue_to_app"
         android:textAllCaps="false"
         android:textSize="18sp"

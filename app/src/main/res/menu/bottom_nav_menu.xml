@@ -5,9 +5,9 @@
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_home"/>
 
-    <item android:title="@string/favorites"
-        android:id="@+id/favoritesFragment"
-        android:icon="@drawable/ic_favorites"/>
+    <item android:title="@string/modules"
+        android:id="@+id/modulesFragment"
+        android:icon="@drawable/ic_book"/>
 
     <item android:title="@string/profile"
         android:id="@+id/profileFragment"
