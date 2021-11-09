@@ -15,9 +15,8 @@
     <string name="confirm_password">Confirm password</string>
     <string name="create_password">Create password</string>
     <string name="full_name">Full Name</string>
-    <string name="study_from_the_comfort_of_your_home">Study from the comfort of your home...</string>
-    <string name="learn_kotlin_with_ease">Learn Kotlin with ease...</string>
-    <string name="sign_in">Sign In</string>
+    <string name="study_from_the_comfort_of_your_home">Study from the comfort of your home…</string>
+    <string name="learn_kotlin_with_ease">Learn Kotlin with ease…</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="login">Login</string>

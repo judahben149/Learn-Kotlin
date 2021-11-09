@@ -10,14 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnKotlin">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.AuthenticationActivity"
             android:exported="true"
-            android:theme="@style/splashScreenTheme">
+            android:theme="@style/splashScreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true" >
+
         </activity>
     </application>
 
