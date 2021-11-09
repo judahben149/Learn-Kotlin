@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/blue_splash_screen"/>
+
+    <item android:drawable="@drawable/ic_kotlin_logo_better" android:gravity="center"/>
+</layer-list>

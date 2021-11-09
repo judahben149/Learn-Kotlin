@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticatedFragment">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/tvAuthenticatedPepText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gabriola"
+        android:text="@string/move_from_zero_to_hero_in_no_time"
+        android:textSize="33sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAuthenticated"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/ivAuthenticated"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_feeling_proud_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvAuthenticatedPepText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnContinueToApp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/kotlinVioletColour"
+        android:layout_marginTop="100dp"
+        android:text="@string/continue_to_app"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:cornerRadius="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAuthenticated" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
