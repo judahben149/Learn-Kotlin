@@ -14,7 +14,7 @@
         android:id="@+id/modulesFragment"
         android:name="com.judahben149.learnkotlin.fragments.ModulesFragment"
         android:label="fragment_favorites"
-        tools:layout="@layout/fragment_favorites" />
+        tools:layout="@layout/fragment_modules" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.judahben149.learnkotlin.fragments.ProfileFragment"

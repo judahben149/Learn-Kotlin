@@ -26,4 +26,6 @@
     <string name="move_from_zero_to_hero_in_no_time">Move from zero to hero in no time!</string>
     <string name="continue_to_app">Continue to app</string>
     <string name="modules">Modules</string>
+    <string name="modules_fragment">Modules Fragment</string>
+    <string name="module_1">Module 1</string>
 </resources>

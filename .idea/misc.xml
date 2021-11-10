@@ -16,9 +16,11 @@
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_authenticated.xml" value="0.190625" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_favorites.xml" value="0.2046875" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_home.xml" value="0.2046875" />
+        <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_modules.xml" value="0.2046875" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_profile.xml" value="0.2046875" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/layout/item_layout_modules_rv.xml" value="0.2046875" />
         <entry key="..\:/Users/Judah/AndroidStudioProjects/LearnKotlin2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2046875" />
       </map>
     </option>
