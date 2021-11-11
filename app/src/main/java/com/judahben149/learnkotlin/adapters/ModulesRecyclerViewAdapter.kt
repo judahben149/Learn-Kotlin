@@ -11,10 +11,9 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
 
     inner class ModulesRecyclerViewViewHolder(val binding: ItemLayoutModulesRvBinding): RecyclerView.ViewHolder(binding.root)
 //    {
-
+//
 //        init {
-//            var moduleNo = binding.tv1ItemView
-//            var moduleTitle = binding.tv2ItemView
+//            binding.
 //        }
 //    }
 

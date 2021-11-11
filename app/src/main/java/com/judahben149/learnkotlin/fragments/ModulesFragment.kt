@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.judahben149.learnkotlin.R
-import com.judahben149.learnkotlin.activities.MainActivity
 import com.judahben149.learnkotlin.adapters.ModulesRecyclerViewAdapter
 import com.judahben149.learnkotlin.databinding.FragmentModulesBinding
 
