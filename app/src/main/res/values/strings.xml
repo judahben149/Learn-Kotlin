@@ -31,17 +31,17 @@
 
 
     <string name="module1_content">What is Kotlin?
-Kotlin is a modern, trending programming language that was released in 2016 by JetBrains.
+Kotlin is a modern, trending programming language that was released in 2016 by &lt;i>JetBrains&lt;/i>.
 
-It has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.
+\nIt has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.
 
-Kotlin is used for:
+\nKotlin is used for:
 
-Mobile applications (specially Android apps)
-Web development
-Server side applications
-Data science
-And much, much more!</string>
+\n*Mobile applications (specially Android apps)
+\n*Web development
+\n*Server side applications
+\n*Data science
+\n*And much, much more!</string>
 
 
     <string name="module2_content">Kotlin IDE

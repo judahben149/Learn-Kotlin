@@ -26,8 +26,8 @@ class ModuleDetailsFragment : Fragment() {
 
         val bundle = arguments
         binding.moduleTitle.text = bundle?.getString("TITLE")
-        binding.moduleDescription.text = bundle?.getString("DESC")
-        binding.imageView2.setImageResource(bundle!!.getInt("IMAGE"))
+        binding.moduleDescription.text = getString(bundle!!.getInt("DESC"))
+        binding.imageView2.setImageResource(bundle.getInt("IMAGE"))
 
         return binding.root
     }
