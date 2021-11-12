@@ -1,5 +1,6 @@
 package com.judahben149.learnkotlin.adapters
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -43,6 +44,10 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
             "When Statements", "While Loops", "Break and Continue", "Arrays", "For Loops", "Ranges", "Functions", "Object-Oriented Programming", "Classes and Objects",
                 "Constructors")
 
+        var moduleImage = arrayListOf<Int>(R.drawable.module1, R.drawable.module2, R.drawable.module3, R.drawable.module4, R.drawable.module5,
+            R.drawable.module6, R.drawable.module7, R.drawable.module8, R.drawable.module9, R.drawable.module10, R.drawable.module11, R.drawable.module12,
+            R.drawable.module13, R.drawable.module14, R.drawable.module15, R.drawable.module16, R.drawable.module17, R.drawable.module18,
+            R.drawable.module19, R.drawable.module20, R.drawable.module21)
     }
 
     inner class ModulesRecyclerViewViewHolder(private val binding: ItemLayoutModulesRvBinding): RecyclerView.ViewHolder(binding.root) {
@@ -54,9 +59,11 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
             binding.cardViewItem.setOnClickListener {
                 val title = moduleNos[position]
                 val description = moduleTitles[position]
+                val image = moduleImage[position]
                 val bundle = Bundle()
                 bundle.putString("TITLE", title)
                 bundle.putString("DESC", description)
+                bundle.putInt("IMAGE", image)
 //                bundle.putParcelable()
                 Navigation.findNavController(binding.root).navigate(R.id.action_modulesFragment_to_moduleDetailsFragment, bundle)
             }

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.net.toUri
 import com.judahben149.learnkotlin.R
 import com.judahben149.learnkotlin.databinding.FragmentModuleDetailsBinding
 
@@ -26,6 +27,7 @@ class ModuleDetailsFragment : Fragment() {
         val bundle = arguments
         binding.moduleTitle.text = bundle?.getString("TITLE")
         binding.moduleDescription.text = bundle?.getString("DESC")
+        binding.imageView2.setImageResource(bundle!!.getInt("IMAGE"))
 
         return binding.root
     }
