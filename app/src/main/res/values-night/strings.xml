@@ -26,4 +26,7 @@
     <string name="modules">Modules</string>
     <string name="modules_fragment">Modules Fragment</string>
     <string name="module_1">Module 1</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign out</string>
 </resources>

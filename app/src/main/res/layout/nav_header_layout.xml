@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/nav_drawer_background_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/gabriola"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tvAppNameNavDrawer"/>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_marginTop="-50dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_kotlin_logo_better"
+        app:layout_constraintEnd_toEndOf="@id/tvAppNameNavDrawer"
+        app:layout_constraintStart_toStartOf="@id/tvAppNameNavDrawer"
+        app:layout_constraintTop_toBottomOf="@id/tvAppNameNavDrawer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
