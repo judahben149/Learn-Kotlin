@@ -31,17 +31,17 @@
 
 
     <string name="module1_content">What is Kotlin?
-Kotlin is a modern, trending programming language that was released in 2016 by JetBrains.
+Kotlin is a modern, trending programming language that was released in 2016 by &lt;i>JetBrains&lt;/i>.
 
-It has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.
+\nIt has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.
 
-Kotlin is used for:
+\nKotlin is used for:
 
-Mobile applications (specially Android apps)
-Web development
-Server side applications
-Data science
-And much, much more!</string>
+\n*Mobile applications (specially Android apps)
+\n*Web development
+\n*Server side applications
+\n*Data science
+\n*And much, much more!</string>
 
 
     <string name="module2_content">Kotlin IDE
@@ -60,10 +60,8 @@ In the previous chapter, we created a Kotlin file called Main.kt, and we used th
 The println() function is used to output values/print text:</string>
 
 
-
     <string name="module5_content">Kotlin Comments
 Comments can be used to explain Kotlin code, and to make it more readable. It can also be used to prevent execution when testing alternative code.</string>
-
 
 
     <string name="module6_content">Kotlin Variables
@@ -72,10 +70,8 @@ Variables are containers for storing data values.
 To create a variable, use var or val, and assign a value to it with the equal sign (=):</string>
 
 
-
     <string name="module7_content">Kotlin Data Types
 In Kotlin, the type of a variable is decided by its value:</string>
-
 
 
     <string name="module8_content">Kotlin Operators
@@ -84,12 +80,10 @@ Operators are used to perform operations on variables and values.
 The value is called an operand, while the operation (to be performed between the two operands) is defined by an operator:</string>
 
 
-
     <string name="module9_content">Kotlin Strings
 Strings are used for storing text.
 
 A string contains a collection of characters surrounded by double quotes:</string>
-
 
 
     <string name="module10_content">Kotlin Booleans
@@ -99,7 +93,6 @@ YES / NO
 ON / OFF
 TRUE / FALSE
 For this, Kotlin has a Boolean data type, which can take the values true or false.</string>
-
 
 
     <string name="module11_content">Kotlin Conditions and If..Else
@@ -112,12 +105,10 @@ Not Equal to: a != b
 You can use these conditions to perform different actions for different decisions.</string>
 
 
-
     <string name="module12_content">Kotlin when
 Instead of writing many if..else expressions, you can use the when expression, which is much easier to read.
 
 It is used to select one of many code blocks to be executed:</string>
-
 
 
     <string name="module13_content">Loops
@@ -126,12 +117,10 @@ Loops can execute a block of code as long as a specified condition is reached.
 Loops are handy because they save time, reduce errors, and they make code more readable.</string>
 
 
-
     <string name="module14_content">Kotlin Break
 The break statement is used to jump out of a loop.
 
 This example jumps out of the loop when i is equal to 4:</string>
-
 
 
     <string name="module15_content">Kotlin Arrays
@@ -140,17 +129,14 @@ Arrays are used to store multiple values in a single variable, instead of creati
 To create an array, use the arrayOf() function, and place the values in a comma-separated list inside it:</string>
 
 
-
     <string name="module16_content">Kotlin For Loop
 Often when you work with arrays, you need to loop through all of the elements.
 
 To loop through array elements, use the for loop together with the in operator:</string>
 
 
-
     <string name="module17_content">Kotlin Ranges
 With the for loop, you can also create ranges of values with "..":</string>
-
 
 
     <string name="module18_content">A function is a block of code which only runs when it is called.
@@ -160,7 +146,6 @@ You can pass data, known as parameters, into a function.
 Functions are used to perform certain actions, and they are also known as methods.
 
 </string>
-
 
 
     <string name="module19_content">Kotlin - What is OOP?
@@ -177,15 +162,16 @@ OOP makes it possible to create full reusable applications with less code and sh
 Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.</string>
 
 
-
     <string name="module20_content">Kotlin Classes/Objects
 Everything in Kotlin is associated with classes and objects, along with its properties and functions. For example: in real life, a car is an object. The car has properties, such as brand, weight and color, and functions, such as drive and brake.
 
 A Class is like an object constructor, or a "blueprint" for creating objects.</string>
 
 
-
     <string name="module21_content">Kotlin Constructor
 In the previous chapter, we created an object of a class, and specified the properties inside the class, like this:</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign out</string>
 
 </resources>

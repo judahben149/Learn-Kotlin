@@ -8,16 +8,45 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.judahben149.learnkotlin.fragments.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/modulesFragment"
         android:name="com.judahben149.learnkotlin.fragments.ModulesFragment"
-        android:label="fragment_favorites"
-        tools:layout="@layout/fragment_modules" />
+        android:label="Modules"
+        tools:layout="@layout/fragment_modules" >
+        <action
+            android:id="@+id/action_modulesFragment_to_moduleDetailsFragment"
+            app:destination="@id/moduleDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.judahben149.learnkotlin.fragments.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.judahben149.learnkotlin.fragments.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.judahben149.learnkotlin.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.judahben149.learnkotlin.fragments.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/signOutFragment"
+        android:name="com.judahben149.learnkotlin.fragments.SignOutFragment"
+        android:label="Sign out"
+        tools:layout="@layout/fragment_sign_out" />
+    <fragment
+        android:id="@+id/moduleDetailsFragment"
+        android:name="com.judahben149.learnkotlin.fragments.ModuleDetailsFragment"
+        android:label="Module Details"
+        tools:layout="@layout/fragment_module_details" />
 </navigation>

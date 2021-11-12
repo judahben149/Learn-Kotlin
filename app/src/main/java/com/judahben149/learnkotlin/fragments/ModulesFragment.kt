@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.judahben149.learnkotlin.adapters.ModulesRecyclerViewAdapter
@@ -22,6 +23,8 @@ class ModulesFragment : Fragment() {
     ): View? {
         fragmentModulesBinding = FragmentModulesBinding.inflate(inflater, container, false)
 
+        (requireActivity() as AppCompatActivity).supportActionBar?.show()
+
         return fragmentModulesBinding!!.root
     }
 
@@ -33,6 +36,8 @@ class ModulesFragment : Fragment() {
 
         fragmentModulesBinding?.rvModulesScreen?.layoutManager = layoutManager
         fragmentModulesBinding?.rvModulesScreen?.adapter = adapter
+
+
 
     }
 }
