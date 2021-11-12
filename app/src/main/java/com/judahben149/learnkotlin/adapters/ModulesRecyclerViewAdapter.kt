@@ -1,17 +1,12 @@
 package com.judahben149.learnkotlin.adapters
 
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.TextView
-import android.widget.Toast
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.snackbar.Snackbar
 import com.judahben149.learnkotlin.R
 import com.judahben149.learnkotlin.databinding.ItemLayoutModulesRvBinding
-import com.judahben149.learnkotlin.model.ModulesList
 
 class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdapter.ModulesRecyclerViewViewHolder>() {
 
@@ -40,7 +35,12 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
             "Module Seventeen", "Module Eighteen", "Module Nineteen", "Module Twenty", "Module Twenty-one")
 
 
-        var moduleTitles = arrayListOf(R.string.module1_content, R.string.module2_content, R.string.module3_content, R.string.module4_content, R.string.module5_content,
+        var moduleSnippets = arrayListOf<String>("Introduction", "Get Started", "Syntax", "Output", "Comments", "Variables", "Data Types", "Operators", "Strings", "Strings",
+        "Booleans", "If ... Else", "When Statements", "While Loops", "Break and Continue", "Arrays", "For Loops", "Ranges", "Functions", "Object-Oriented Programming",
+        "Classes and Objects", "Constructors")
+
+
+        var moduleContent = arrayListOf(R.string.module1_content, R.string.module2_content, R.string.module3_content, R.string.module4_content, R.string.module5_content,
             R.string.module6_content, R.string.module7_content, R.string.module8_content, R.string.module9_content, R.string.module10_content, R.string.module11_content,
             R.string.module12_content, R.string.module13_content, R.string.module14_content, R.string.module15_content, R.string.module16_content, R.string.module17_content,
             R.string.module18_content, R.string.module19_content, R.string.module20_content,
@@ -56,10 +56,11 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
 
         fun bindItem(position: Int){
             binding.tv1ItemView.text = moduleNos[position]
+            binding.tv2ItemView.text = moduleSnippets[position]
 
             binding.cardViewItem.setOnClickListener {
-                val title = moduleNos[position]
-                val description = moduleTitles[position]
+                val title = moduleSnippets[position]
+                val description = moduleContent[position]
                 val image = moduleImage[position]
                 val bundle = Bundle()
                 bundle.putString("TITLE", title)

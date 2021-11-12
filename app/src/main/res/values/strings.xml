@@ -31,68 +31,76 @@
 
 
     <string name="module1_content">What is Kotlin?
-Kotlin is a modern, trending programming language that was released in 2016 by &lt;i>JetBrains&lt;/i>.
+Kotlin is a modern, trending programming language that was released in 2016 by <b><i>JetBrains</i></b>.\n
 
 \nIt has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.
 
-\nKotlin is used for:
+\n\nKotlin is used for:
 
 \n*Mobile applications (specially Android apps)
 \n*Web development
 \n*Server side applications
 \n*Data science
-\n*And much, much more!</string>
+\n*And much, much more!
+    \n\t\n
+        Why Use Kotlin?\n
+\n*Kotlin is fully compatible with Java
+\n*Kotlin works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+\n*Kotlin is concise and safe
+\nKotlin is easy to learn, especially if you already know Java
+\n*Kotlin is free to use
+\n*Big community/support</string>
 
 
-    <string name="module2_content">Kotlin IDE
+    <string name="module2_content">
 The easiest way to get started with Kotlin, is to use an IDE.
 
-An IDE (Integrated Development Environment) is used to edit and compile code.
+An IDE (Integrated Development Environment) is used to edit and compile code.\n\n
 
 In this chapter, we will use IntelliJ (developed by the same people that created Kotlin) which is free to download from https://www.jetbrains.com/idea/download/.</string>
 
 
-    <string name="module3_content">Kotlin Syntax
-In the previous chapter, we created a Kotlin file called Main.kt, and we used the following code to print "Hello World" to the screen:</string>
+    <string name="module3_content">
+In the previous chapter, we created a Kotlin file called Main.kt, and we used the following code to print "Hello World" to the screen:\n</string>
 
 
-    <string name="module4_content">Kotlin Output (Print)
-The println() function is used to output values/print text:</string>
+    <string name="module4_content">
+The println() function is used to output values/print text:\n</string>
 
 
-    <string name="module5_content">Kotlin Comments
+    <string name="module5_content">
 Comments can be used to explain Kotlin code, and to make it more readable. It can also be used to prevent execution when testing alternative code.</string>
 
 
-    <string name="module6_content">Kotlin Variables
+    <string name="module6_content">
 Variables are containers for storing data values.
 
 To create a variable, use var or val, and assign a value to it with the equal sign (=):</string>
 
 
-    <string name="module7_content">Kotlin Data Types
+    <string name="module7_content">
 In Kotlin, the type of a variable is decided by its value:</string>
 
 
-    <string name="module8_content">Kotlin Operators
+    <string name="module8_content">
 Operators are used to perform operations on variables and values.
 
 The value is called an operand, while the operation (to be performed between the two operands) is defined by an operator:</string>
 
 
-    <string name="module9_content">Kotlin Strings
+    <string name="module9_content">
 Strings are used for storing text.
 
 A string contains a collection of characters surrounded by double quotes:</string>
 
 
-    <string name="module10_content">Kotlin Booleans
+    <string name="module10_content">
 Very often, in programming, you will need a data type that can only have one of two values, like:
-
-YES / NO
-ON / OFF
-TRUE / FALSE
-For this, Kotlin has a Boolean data type, which can take the values true or false.</string>
+        \t\n\t
+\nYES / NO
+\nON / OFF
+\nTRUE / FALSE
+\nFor this, Kotlin has a Boolean data type, which can take the values true or false.</string>
 
 
     <string name="module11_content">Kotlin Conditions and If..Else
