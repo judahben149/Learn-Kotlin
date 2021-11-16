@@ -38,14 +38,14 @@
         android:text="@string/sign_in"
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/etEmail_SignInScreen"
+        app:layout_constraintBottom_toTopOf="@+id/etEmailSignInPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etEmail_SignInScreen"
+        android:id="@+id/etEmailSignInPage"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:textSize="15sp"
@@ -55,14 +55,14 @@
         android:drawablePadding="10dp"
         android:hint="@string/email_or_phone_number"
         android:paddingStart="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/etPassword_SignInScreen"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordSignInScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="RtlSymmetry" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etPassword_SignInScreen"
+        android:id="@+id/etPasswordSignInScreen"
         android:layout_width="300dp"
         android:textSize="15sp"
         android:layout_height="50dp"
@@ -87,13 +87,13 @@
         android:layout_marginBottom="10dp"
         android:text="@string/forgot_password"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogIn_SignInPage"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogInSignInScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnLogIn_SignInPage"
+        android:id="@+id/btnLogInSignInScreen"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:text="@string/login"
@@ -132,6 +132,7 @@
         app:cornerRadius="35dp"
         app:layout_constraintBottom_toTopOf="@+id/tvSignUpAlreadyHaveAnAccount"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="@color/colorPrimary" />
 
@@ -145,12 +146,12 @@
         android:text="@string/don_t_have_an_account"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvSignIn_SignUpScreen"
+        app:layout_constraintEnd_toStartOf="@+id/tvSignUpSignInScreen"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tvSignIn_SignUpScreen"
+        android:id="@+id/tvSignUpSignInScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="75dp"

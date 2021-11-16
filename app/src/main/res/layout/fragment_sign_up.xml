@@ -49,7 +49,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etEmail_SignInScreen"
+        android:id="@+id/etNameSignUpPage"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -68,7 +68,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etPassword_SignInScreen"
+        android:id="@+id/etEmailSignUpPage"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -82,11 +82,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmail_SignInScreen"
+        app:layout_constraintTop_toBottomOf="@+id/etNameSignUpPage"
         tools:ignore="RtlSymmetry" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignUpCreatePassword"
+        android:id="@+id/etCreatePasswordSignUpPage"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
@@ -100,11 +100,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword_SignInScreen"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailSignUpPage"
         tools:ignore="RtlSymmetry" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/tvConfirmPassword"
+        android:id="@+id/etConfirmPasswordSignUpPage"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
@@ -118,11 +118,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignUpCreatePassword"
+        app:layout_constraintTop_toBottomOf="@+id/etCreatePasswordSignUpPage"
         tools:ignore="RtlSymmetry" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnLogIn_SignInPage"
+        android:id="@+id/btnSignUpSignUpScreen"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:backgroundTint="@color/colorSecondary"
@@ -134,7 +134,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvConfirmPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etConfirmPasswordSignUpPage" />
 
 
     <TextView

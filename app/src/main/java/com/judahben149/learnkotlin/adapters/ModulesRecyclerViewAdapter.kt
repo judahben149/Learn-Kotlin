@@ -35,8 +35,8 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
             "Module Seventeen", "Module Eighteen", "Module Nineteen", "Module Twenty", "Module Twenty-one")
 
 
-        var moduleSnippets = arrayListOf<String>("Introduction", "Get Started", "Syntax", "Output", "Comments", "Variables", "Data Types", "Operators", "Strings", "Strings",
-        "Booleans", "If ... Else", "When Statements", "While Loops", "Break and Continue", "Arrays", "For Loops", "Ranges", "Functions", "Object-Oriented Programming",
+        var moduleSnippets = arrayListOf<String>("Introduction to Kotlin", "Get Started", "Kotlin syntax", "Output-Print Statements", "Comments in Kotlin", "Variables", "Data Types", "Operators", "Strings",
+        "Booleans", "If ... Else clauses", "When Statements", "While Loops", "Break and Continue", "Arrays", "For Loops", "Ranges", "Functions", "Object-Oriented Programming",
         "Classes and Objects", "Constructors")
 
 
@@ -71,8 +71,6 @@ class ModulesRecyclerViewAdapter(): RecyclerView.Adapter<ModulesRecyclerViewAdap
         }
 
     }
-
-
 }
 
 

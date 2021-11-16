@@ -29,6 +29,9 @@
     <string name="modules_fragment">Modules Fragment</string>
     <string name="module_1">Module 1</string>
 
+    <string name="disclaimer">Disclaimer!\n
+    All resources (text and images) which are used in this application were gotten from the W3schools website (found: w3schools.com).</string>
+
 
     <string name="module1_content">What is Kotlin?
 Kotlin is a modern, trending programming language that was released in 2016 by <b><i>JetBrains</i></b>.\n
@@ -49,7 +52,13 @@ Kotlin is a modern, trending programming language that was released in 2016 by <
 \n*Kotlin is concise and safe
 \nKotlin is easy to learn, especially if you already know Java
 \n*Kotlin is free to use
-\n*Big community/support</string>
+\n*Big community/support
+
+        \n\t\nGet Started
+\nThis tutorial will teach you the very basics of Kotlin.
+
+\nIt is not necessary to have any prior programming experience.
+    </string>
 
 
     <string name="module2_content">
@@ -57,11 +66,22 @@ The easiest way to get started with Kotlin, is to use an IDE.
 
 An IDE (Integrated Development Environment) is used to edit and compile code.\n\n
 
-In this chapter, we will use IntelliJ (developed by the same people that created Kotlin) which is free to download from https://www.jetbrains.com/idea/download/.</string>
+In this chapter, we will use IntelliJ (developed by the same people that created Kotlin) which is free to download from https://www.jetbrains.com/idea/download/.
+    \nKotlin Install
+Once IntelliJ is downloaded and installed, click on the New Project button to get started with IntelliJ:
+        \n\t\nThen click on "Kotlin" in the left side menu, and enter a name for your project:
+        \n\t\nNext, we need to install something called JDK (Java Development Kit) to get our Kotlin project up and going. Click on the "Project JDK" menu, select "Download JDK" and select a version and vendor (e.g. AdoptOpenJDK 11) and click on the "Download" button:
+        \n\t\nWhen the JDK is downloaded and installed, choose it from the select menu and then click on the "Next" button and at last "Finish":
+        \n\t\nNow we can start working with our Kotlin project. Do not worry about all of the different buttons and functions in IntelliJ. For now, just open the src (source) folder, and follow the same steps as in the image below, to create a kotlin file:
+        \n\t\nKotlin Install
+\nOnce IntelliJ is downloaded and installed, click on the New Project button to get started with IntelliJ:
+    </string>
 
 
     <string name="module3_content">
-In the previous chapter, we created a Kotlin file called Main.kt, and we used the following code to print "Hello World" to the screen:\n</string>
+In the previous chapter, we created a Kotlin file called Main.kt , and we used the following code to print "Hello World" to the screen: \n
+
+   </string>
 
 
     <string name="module4_content">

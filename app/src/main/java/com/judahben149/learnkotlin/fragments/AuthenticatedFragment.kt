@@ -31,7 +31,7 @@ class AuthenticatedFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        fragmentAuthenticatedBinding?.btnLogInSignInPage?.setOnClickListener {
+        fragmentAuthenticatedBinding?.btnContinueToAppAuthenticatedScreen?.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_authenticatedFragment2_to_mainActivity)
         }
     }
